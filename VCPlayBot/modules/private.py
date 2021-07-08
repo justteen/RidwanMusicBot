@@ -31,13 +31,13 @@ def _start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan bot ke Group 🎧️", url="http://t.me/auvbuzzbot?startgroup=true"
+                        "Tambahkan bot ke Group 🎧️", url="http://t.me/Ridwanmusicbot?startgroup=true"
                     )
                     
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Asiten 🎧️", url="http://t.me/asistenmusik2?startgroup=True"
+                        "Tambahkan Asiten 🎧️", url="http://t.me/asistenRidwan?startgroup=True"
                     )
                 ]
             ]
