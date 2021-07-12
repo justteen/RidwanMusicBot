@@ -1,11 +1,11 @@
 from pyrogram import Client
-from pytgcalls import pytgcalls
+from pytgcalls import PyTgCalls
 
 from VCPlayBot.config import API_HASH, API_ID, SESSION_NAME
 from VCPlayBot.services.callsmusic import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
-pytgcalls = pytgcalls(client)
+pytgcalls = PyTgCalls(client)
 
 
 @pytgcalls.on_stream_end()
